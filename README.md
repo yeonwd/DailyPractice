@@ -1,2 +1,3 @@
 # DailyPractice
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+This repository serves as a log for my daily algorithm practice on Baekjoon and Programmers platforms.
+The code is automatically pushed by [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
