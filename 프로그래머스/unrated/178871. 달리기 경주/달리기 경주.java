@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+    
     public String[] solution(String[] players, String[] callings) {
         
         String[] answer = {};
@@ -26,4 +27,26 @@ class Solution {
         
         return players;
     }
+
+/*
+    일부 성공, 일부 시간 초과 실패한 코드
+
+    class Solution {
+    public String[] solution(String[] players, String[] callings) {
+        
+        for(int i=0; i<callings.length; i++) {
+            String name = callings[i];
+            for(int j=0; j<players.length; j++) {
+                if(players[j].equals(name)) {
+                    String temp = players[j-1];
+                    players[j-1] = players[j];
+                    players[j] = temp;
+                }
+            }
+        }
+        return players;
+    }
+}
+*/
+    
 }
